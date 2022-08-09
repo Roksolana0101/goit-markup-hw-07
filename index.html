@@ -571,7 +571,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer-conteiner2">
+        <div class="footer-wraper">
           <h2 class="footer-socials-titel">приєднуйтесь</h2>
           <ul class="footer-socials list">
             <li class="footer-socials-items">
@@ -630,19 +630,21 @@
         </div>
         <div class="footer-conteiner2">
           <h2 class="footer-socials-titel">Підпишіться на розсилку</h2>
-          <form class="form" name="modal-form" autocomplete="off">
-            <label class="modal-form-group">
+          <form class="footer-form" name="modal-form" autocomplete="off">
+            <label class="footer-form-label">
               <input
-                class="modal-form-input"
+                class="footer-form-input"
                 type="email"
                 name="user-email-sub"
                 placeholder="E-mail"
               />
             </label>
-            <button class="modal-form-btn" type="submit">Підписатися</button>
-            <svg class="form-icon" widht="18" height="18">
+            
+            <button class="modal-form-btn" type="submit">Підписатися    <svg class="form-icon-foter" width="18" height="18">
               <use href="./images/icons.svg#icon-send"></use>
             </svg>
+        </button>
+        
           </form>
         </div>
       </div>
@@ -669,7 +671,7 @@
                 placeholder=""
                 minlength="3"
               />
-              <svg class="form-icon" widht="18" height="18">
+              <svg class="form-icon" width="18" height="18">
                 <use href="./images/icons.svg#person"></use>
               </svg>
             </label>
@@ -682,7 +684,7 @@
                 placeholder=""
                 maxlength="12"
               />
-              <svg class="form-icon" widht="18" height="18">
+              <svg class="form-icon" width="18" height="18">
                 <use href="./images/icons.svg#modal-phone"></use>
               </svg>
             </label>
@@ -694,7 +696,7 @@
                 name="user-mail"
                 placeholder=""
               />
-              <svg class="form-icon" widht="18" height="18">
+              <svg class="form-icon" width="18" height="18">
                 <use href="./images/icons.svg#modal-mail"></use>
               </svg>
             </label>
@@ -703,21 +705,25 @@
               <span class="modal-form-label">Коментар</span>
               <textarea
                 class="modal-form-input coment"
-                rows="6"
+                rows="5"
                 name="user-coment"
                 placeholder="Введіть текст"
               ></textarea>
             </label>
           </div>
-          <label class="modal-form-group">
+          <label class="register-form-agree">
+
             <input
-              class="modal-form-input coment"
+              class="register-checkbox visualy-hidden"
               type="checkbox"
               name="user-agree"
               value="pravacy-policy"
             />
-            <span class="modal-form-label"
-              >Погоджуюся з розсилкою та приймаю
+            <svg class="register-icon" width="16" height="15">
+              <use class="register-icon-check" href="./images/icons.svg#icon-check"></use>
+              <use class="register-icon-uncheck" href="./images/icons.svg#icon-uncheck"></use>
+            </svg>
+            <span class="modal-form-label">Погоджуюся з розсилкою та приймаю
               <a class="user-agree" href="">Умови договору</a></span
             >
           </label>
