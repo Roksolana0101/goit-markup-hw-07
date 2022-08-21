@@ -18,13 +18,14 @@
 
     transition: color var(--anim-fast);
 
-}
 
-.header-mail:hover,
-.header-mail:focus,
-.header-phone:hover,
-.header-phone:focus {
+
+&:hover,
+&:focus,
+&:hover,
+&:focus {
     color: var(--accent-txt-cl);
+}
 }
 
 .icon-nav {

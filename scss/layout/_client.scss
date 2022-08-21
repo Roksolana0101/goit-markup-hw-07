@@ -23,12 +23,13 @@
 
     transition: color var(--anim-fast), border var(--anim-fast);
 
-}
 
-.client-link:hover,
-.client-link:focus {
+
+&:hover,
+&:focus {
     color: var(--accent-txt-cl);
     border: 1px solid var(--accent-txt-cl);
+}
 }
 
 .client-icon {
