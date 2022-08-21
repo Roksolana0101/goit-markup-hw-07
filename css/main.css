@@ -986,7 +986,7 @@ p {
   padding-bottom: 0;
 }
 
-.specialty-titel {
+.specialty__titel {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -1000,19 +1000,19 @@ p {
   margin: -1px;
 }
 
-.specialty-list {
+.specialty__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: var(--main-gap);
 }
 
-.specialty-list-item {
+.specialty__items {
   -ms-flex-preferred-size: 270px;
       flex-basis: 270px;
 }
 
-.specialty-icon-box {
+.specialty__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1029,12 +1029,12 @@ p {
   margin-bottom: 30px;
 }
 
-.specialty-icon {
+.specialty__icon {
   outline: var(--outline);
   outline-offset: var(--outline-offset);
 }
 
-.speciality-item {
+.speciality__item {
   color: var(--main-txt-cl);
   font-weight: 700;
   font-size: 14px;
@@ -1044,7 +1044,7 @@ p {
   margin-bottom: 10px;
 }
 
-.specialty-desc {
+.specialty__desc {
   color: var(--secondary-txt-cl);
   font-size: 14px;
   line-height: 1.7142857143;
