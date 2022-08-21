@@ -111,7 +111,7 @@ p {
 }
 
 /*hero button*/
-.hero-button {
+.hero__button {
   color: var(--hero-txt-cl);
   background-color: var(--accent-txt-cl);
   font-family: inherit;
@@ -128,7 +128,7 @@ p {
   -webkit-transition: background-color var(--anim-fast);
   transition: background-color var(--anim-fast);
 }
-.hero-button:hover, .hero-button:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: var(--accent-txt-cl);
 }
 
@@ -505,7 +505,7 @@ p {
 }
 
 /*hero styles*/
-.hero-section {
+.hero__section {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/fonimg.jpg);
   background-image: linear-gradient(360deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fonimg.jpg);
   background-repeat: no-repeat;
@@ -518,7 +518,7 @@ p {
   margin-right: auto;
 }
 
-.hero-container {
+.hero__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
