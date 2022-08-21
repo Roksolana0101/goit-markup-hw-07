@@ -1,15 +1,22 @@
 /*utils styles*/
 
 @import "./utils/variables";
+@import "./utils/visualy-hidden";
 
 /*base styles*/
 
 @import "./base/base";
+@import "./base/reset";
 
 /*components styles*/
 
-@import "./coponents/buttons";
+@import "./components/buttons";
+@import "./components/conteiner";
+@import "./components/section";
 
 /*layouts styles*/
 
 @import "./layout/heder";
+@import "./layout/logo";
+@import "./layout/hero";
+@import "./layout/footer";

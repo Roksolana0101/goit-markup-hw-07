@@ -1,0 +1,53 @@
+/* main buttn styles*/
+.button {
+    background-color: transparent;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    letter-spacing: 0.03em;
+    border: none;
+    border-radius: 4px;
+
+    padding: 6px 22px;
+
+    transition: background-color var(--anim-fast), color var(--anim-fast), box-shadow var(--anim-fast);
+
+
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-txt-cl);
+    color: var(--hero-txt-cl);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.hero-button {
+    color: var(--hero-txt-cl);
+    background-color: var(--accent-txt-cl);
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    border: none;
+    letter-spacing: 0.06em;
+
+    max-width: 220px;
+    min-width: 200px;
+    min-height: 50px;
+    padding: 10px 32px;
+
+
+
+
+    transition: background-color var(--anim-fast);
+
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--accent-txt-cl);
+
+}

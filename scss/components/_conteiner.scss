@@ -1,0 +1,16 @@
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    outline: var(--outline);
+    outline-offset: var(--outline-offset);
+}
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
