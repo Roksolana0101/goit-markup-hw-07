@@ -736,7 +736,7 @@ p {
   margin-bottom: 50px;
 }
 
-.work-cards-list {
+.workcards__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -745,7 +745,7 @@ p {
   gap: var(--main-gap);
 }
 
-.work-card {
+.workcards__item {
   position: relative;
 }
 
