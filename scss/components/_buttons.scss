@@ -23,6 +23,7 @@
     color: var(--hero-txt-cl);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+/*hero button*/
 .hero-button {
     color: var(--hero-txt-cl);
     background-color: var(--accent-txt-cl);
@@ -49,5 +50,61 @@
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--accent-txt-cl);
+
+}
+.portfolio-nav-button {
+    background-color: #F5F4FA;
+}
+.button-list {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+    padding: 0;
+
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+
+}
+.modal-form-btn {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    color: var(--hero-txt-cl);
+
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 50px;
+    padding: 10px 0px;
+    gap: 10px;
+    border: none;
+
+    border-radius: 4px;
+    background: var(--accent-txt-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
