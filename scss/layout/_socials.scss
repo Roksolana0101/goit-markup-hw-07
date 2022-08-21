@@ -20,12 +20,13 @@
     transition: color var(--anim-fast), background-color var(--anim-fast);
 
 
-}
 
-.socials-link:hover,
-.socials-link:focus {
+
+&:hover,
+&:focus {
     color: var(--hero-txt-cl);
     background-color: var(--accent-txt-cl);
+}
 }
 
 .socials-icon {

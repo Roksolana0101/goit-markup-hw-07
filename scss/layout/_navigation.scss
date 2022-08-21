@@ -27,6 +27,12 @@
     letter-spacing: 0.02em;
 
     transition: color var(--anim-fast);
+
+&:hover,
+&:focus {
+    color:
+        var(--accent-txt-cl);
+}
 }
 
 .header-link-current {
@@ -49,8 +55,3 @@
 
 }
 
-.header-link:hover,
-.header-link:focus {
-    color:
-        var(--accent-txt-cl);
-}
